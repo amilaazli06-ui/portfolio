@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Creative portfolio of YOUR NAME" />
+  <meta name="theme-color" content="#f5ecd9" />
+  <title>Creative Portfolio — YOUR NAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <a class="brand" href="#home"><strong>PORTFOLIO</strong> BY NOR AMILA</a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav class="links">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT ME</a>
+      <a href="#technology">TECHNOLOGY</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#cocurriculum">CO-CURRICULUM</a>
+      <a href="#projects">PROJECT</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 1. HOME -->
+    <section id="home" class="page page--hero">
+      <div class="page__inner">
+        <p class="eyebrow">Creative Portfolio</p>
+        <h1>Hi, I'm <span>Nor Amila</span></h1>
+		<p class="typing">I am a <span id="typed"></span><span class="cursor">|</span></p>
+        <div class="hero-photo" role="img" aria-label="Your photo (replace in style.css)"></div>
+      </div>
+      <a class="next" href="#about" aria-label="Next section">→</a>
+    </section>
+
+    <!-- 2. ABOUT -->
+    <section id="about" class="page">
+      <div class="page__inner two-col">
+        <div class="photo" role="img" aria-label="About photo"></div>
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>Who I am</h2>
+          <p>Hi! I'm Amila, a final-year Diploma in Information Technology student at Politeknik Muadzam Shah. I enjoy exploring technology, learning new things, and trying out different activities. I'm also an active person who loves being involved in campus activities and gaining new experiences.</p>
+          <ul class="facts">
+            <li><b>Location</b> Terengganu, Malaysia</li>
+            <li><b>Focus</b> Software & web development </li>
+            <li><b>Languages</b> English, Malay</li>
+          </ul>
+        </div>
+      </div>
+      <a class="next" href="#technology" aria-label="Next section">→</a>
+    </section>
+
+    <!-- 3. TECHNOLOGY -->
+    <section id="technology" class="page">
+      <div class="page__inner">
+        <p class="eyebrow">Technology</p>
+        <h2>My tech stack</h2>
+        <div class="chips">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+          <span>MySQL</span><span>Figma</span><span>Canva</span><span>Git &amp; GitHub</span>
+        </div>
+      </div>
+      <a class="next" href="#education" aria-label="Next section">→</a>
+    </section>
+
+    <!-- 4. EDUCATION -->
+    <section id="education" class="page">
+      <div class="page__inner">
+        <p class="eyebrow">Education Background</p>
+        <h2>Where I studied</h2>
+        <ol class="timeline">
+          <li><time>2024 – Present</time><h3>Diploma in Information Technology </h3><p>Politeknik Muadzam Shah</p></li>
+          <li><time>2021 – 2023</time><h3>SPM</h3><p>SMK Pulau Serai</p></li>
+        </ol>
+      </div>
+      <a class="next" href="#cocurriculum" aria-label="Next section">→</a>
+    </section>
+
+    <!-- 5. CO-CURRICULUM -->
+    <section id="cocurriculum" class="page">
+      <div class="page__inner">
+        <p class="eyebrow">Co-Curriculum</p>
+        <h2>Beyond the classroom</h2>
+        <div class="cards">
+          <article class="card">
+  <div class="pics">
+  <div class="pic"><img style="--x:50%; --y:40%; --z:1.2" src="assets/club1.jpeg" alt="Club / Society 1" /></div>
+  <div class="pic"><img style="--x:50%; --y:80%; --z:1.5" src="assets/club2.jpeg" alt="Club / Society 2" /></div>
+</div>
+  <h3>Silat Club — PMS Fighter</h3>
+  <h4>Active Member & Multimedia Team | 2024–2026.</h4>
+  <p>Actively involved in PMS Fighter, representing the polytechnic in silat activities and training sessions. Contributed to the club's multimedia team by capturing and editing training videos, event highlights, and club memories while developing teamwork, discipline, leadership, and creative skills.</p>
+</article>
+<article class="card">
+  <div class="pics">
+  <div class="pic"><img style="--x:50%; --y:50%; --z:1" src="assets/event1.jpeg" alt="Competition / Event 1" /></div>
+  <div class="pic"><img style="--x:60%; --y:50%; --z:1.2" src="assets/event2.jpeg" alt="Competition / Event 2" /></div>
+</div>
+  <h3>Silat Competition & Achievements</h3>
+  <h4>Silat Athlete | 2024–2026</h4>
+  <p>Represented Pahang and Polytechnic Malaysia in silat competitions under the Class D (60–65 kg) weight category. These experiences strengthened my discipline, resilience, sportsmanship, and ability to perform under pressure</p>
+</article>
+        </div>
+      </div>
+      <a class="next" href="#projects" aria-label="Next section">→</a>
+    </section>
+
+    <!-- 6. PROJECT (divider) -->
+    <section id="projects" class="page page--divider">
+      <div class="page__inner">
+        <p class="eyebrow">Selected Work</p>
+        <h2 class="big">Project</h2>
+      </div>
+      <a class="next" href="#project01" aria-label="Next section">→</a>
+    </section>
+
+    <!-- PROJECT 01 -->
+    <section id="project01" class="page project" data-gallery="gallery1">
+      <div class="page__inner two-col">
+        <div>
+          <p class="eyebrow">Final Year Project</p>
+          <h2>Management System Website For Optical Shop</h2>
+          <p>A web-based Optical Store Management System developed to digitalize and centralize optical store operations. The system integrates appointment booking, customer and prescription management, inventory management and sales management to reduce manual work, improve efficiency and provide better customer service.</p>
+          <h3>Key features:</h3>
+          <ul class="features">
+            <li>User registration and login</li>
+            <li>Service selection</li>
+            <li>Online booking</li>
+            <li>Responsive design</li>
+          </ul>
+          <button class="btn gallery-btn">VIEW GALLERY</button>
+        </div>
+        <figure class="shot">
+  <video src="assets/project01.mp4" autoplay muted loop playsinline></video>
+</figure>
+      </div>
+      <a class="next" href="#project02" aria-label="Next project">→</a>
+    </section>
+
+    <!-- ACHIEVEMENT -->
+<section id="project02" class="page project">
+  <div class="page__inner">
+    <p class="eyebrow">Achievement</p>
+    <h2>Silver Medalist</h2>
+    <p>Awarded the Silver Medal at the Digital Innovation Creativity Exhibition (DICE) 2026 for my final year project, a Management System Website for Optical Shop.</p>
+    <div class="awards">
+      <figure>
+        <img src="assets/cert.jpg" alt="Silver medalist certificate" />
+        <figcaption>Silver Medalist Certificate</figcaption>
+      </figure>
+      <figure>
+        <img class="portrait" style="object-position: 50% 30%" src="assets/sv.jpeg" alt="With my supervisor" />
+        <figcaption>With my supervisor and my teammate</figcaption>
+      </figure>
+    </div>
+  </div>
+  <a class="next" href="#thankyou" aria-label="Next section">→</a>
+</section>
+	
+	
+
+    <!-- THANK YOU / CONTACT -->
+    <section id="thankyou" class="page page--hero page--thanks">
+      <div class="page__inner">
+        <h2 class="big">Thank you!</h2>
+        <p class="lead">Let's work together. Reach out any time.</p>
+        <div class="actions">
+          <a class="btn" href="https://wa.me/0139846956" target="_blank" rel="noopener">WHATSAPP</a>
+          <a class="btn btn--ghost" href="mailto:amilaazli06@gmail.com">SEND EMAIL</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <button class="to-top" aria-label="Back to top">↑</button>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" hidden>
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-prev" aria-label="Previous">‹</button>
+    <img alt="Portfolio project image" />
+    <button class="lb-next" aria-label="Next">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
